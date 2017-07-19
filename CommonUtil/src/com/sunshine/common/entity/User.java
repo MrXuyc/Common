@@ -17,6 +17,17 @@ public class User {
 	 * 账号
 	 */
 	private String userCode;
+	/**
+	 * 用户邮箱
+	 */
+	private String userEmail;
+	
+	public String getUserEmail() {
+		return userEmail;
+	}
+	public void setUserEmail(String userEmail) {
+		this.userEmail = userEmail;
+	}
 	public String getUserName() {
 		return userName;
 	}
